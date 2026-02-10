@@ -21,7 +21,7 @@ export const Hero=() => {
             <img src="/hero-bg.jpg" 
             alt="hero img" 
             className="w-full h-full object-cover opacity-40 object-top "/>
-            <div className="absolute inset-0 bg-gradient-to-b from-background/20 via-background/80 to-background" />
+            <div className="absolute inset-0 bg-linear-to-b from-background/20 via-background/80 to-background" />
 
         </div>
         {/*green dots*/}
@@ -98,9 +98,9 @@ export const Hero=() => {
                    <div className='relative animate-fade-in animate-delay-300'>
                     {/*profile */}
                     <div className='relative max-w-mid mx-auto'>
-                        <div className='absolute inset-0 rounded-3xl bg-gradient-to-br from-primary/30 to-primary/10 blur-2xl animate-pulse '/>
+                        <div className='absolute inset-0 rounded-3xl bg-linear-to-br from-primary/30 to-primary/10 blur-2xl animate-pulse '/>
                         <div className='realtive glass rounded-3xl p-2 glow-border'>
-                            <img src='/profile 2.png' alt='Fazal Ahmed ' className='w-full aspect-[4/5] object-cover rounded-2xl' 
+                            <img src='/profile 2.png' alt='Fazal Ahmed ' className='w-full aspect-`4/5` object-cover rounded-2xl' 
                             />
                             {/*floating badge */}
                             <div className='absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float '>
@@ -111,7 +111,7 @@ export const Hero=() => {
                             </div>
                             {/*stats*/}
                             <div className='absolute -top-4 -left-4 glass rounded-xl px-3 py-4 animate-float animation-delay-500'>
-                                <div className='text=2xl font-bold text-primary'>1+</div>
+                                <div className='text=2xl font-bold text-primary'>0+</div>
                                 <div className='text-xs text-muted-foreground'>Year Freelancing</div>
                             </div>
                         </div>
@@ -125,7 +125,7 @@ export const Hero=() => {
                 <div className='relative overflow-hidden'> 
                     <div className='flex animate-marquee'>
                         {[...skills, ...skills].map((skill, idx)=>(
-                            <div key={idx} className='flex-shrink-0 px-8 py-4'> 
+                            <div key={idx} className='shrink-0 px-8 py-4'> 
                                 <span className='text-xl font-semibold text-muted-foreground/50 hover:text-muted-foreground transition-colors cursor-pointer'>{skill}</span>
                             </div>
                         ))}
