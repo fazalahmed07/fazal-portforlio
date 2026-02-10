@@ -83,7 +83,7 @@ export const Hero=() => {
                         <span className='text=sm text-muted-foreground'>Follow me</span>
                         {[
                             { icon: Github, href:'https://github.com/fazalahmed07'},
-                            { icon: Linkedin, href:'www.linkedin.com/in/fazal-ahmed-3z83'},
+                            { icon: Linkedin, href:'https://www.linkedin.com/in/fazal-ahmed-3z83'},
                         ].map((social, idx) => (
                             <a 
                             key={idx} 
