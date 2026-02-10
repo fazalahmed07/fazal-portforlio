@@ -70,8 +70,10 @@ export const Projects=() => {
 
         </div>
         {/*view all cta */}
-        <div className="text-cneter mt-12 animate-fade-in animaion-delay-500">
-            <AnimatedBorderButton>
+        <div className="text-cneter mt-12 animate-fade-in animaion-delay-500" onClick={()=>{
+           window.open("https://github.com/fazalahmed07");
+        }}>
+            <AnimatedBorderButton >
                 View all projects <ArrowUpRight className="w-5 h-5"/>
             </AnimatedBorderButton>
         </div>
