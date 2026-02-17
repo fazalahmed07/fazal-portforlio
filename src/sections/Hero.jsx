@@ -85,7 +85,7 @@ export const Hero=() => {
                             { icon: Github,
                                 href:"https://github.com/fazalahmed07"},
                             { icon: 
-                                Linkedin, href:'https://www.linkedin.com/in/fazal-ahmed-3z83'},
+                                Linkedin, href:'https://www.linkedin.com/in/fazal-ahmed-3z83?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'},
                         ].map((social, idx) => (
                             <a 
                             key={idx} 
