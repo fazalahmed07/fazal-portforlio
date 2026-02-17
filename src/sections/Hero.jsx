@@ -15,6 +15,7 @@ const skills = [
     "Figma"
 ];
 
+
 export const Hero=() => {
     return <section className="relative min-h-screen flex items-center overflow:hidden">
         <div className="absolute inset-0">
@@ -89,7 +90,7 @@ export const Hero=() => {
                         ].map((social, idx) => (
                             <a 
                             key={idx} 
-                            href="socail.href" className='p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300'>
+                            href="social.href" className='p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300'>
                                 <social.icon className='h-5 w-5'/>
                                 </a>  
                         ))}
