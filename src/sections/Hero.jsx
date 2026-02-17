@@ -81,16 +81,17 @@ export const Hero=() => {
                    </div>
                     {/* cta*/ }
                     <div className='flex items-center gap-4 animate-fade-in  animate-delay-400'>
-                        <span className='text=sm text-muted-foreground'>Follow me</span>
+                        <span className='text-sm text-muted-foreground'>Follow me</span>
                         {[
                             { icon: Github,
-                                href:"https://github.com/fazalahmed07"},
+                                href:'https://github.com/fazalahmed07'},
                             { icon: 
-                                Linkedin, href:'https://www.linkedin.com/in/fazal-ahmed-3z83?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'},
+                                Linkedin,
+                                 href:'https://www.linkedin.com/in/fazal-ahmed-3z83?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'},
                         ].map((social, idx) => (
                             <a 
                             key={idx} 
-                            href="social.href" className='p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300'>
+                            href={social.href} className='p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300'>
                                 <social.icon className='h-5 w-5'/>
                                 </a>  
                         ))}
