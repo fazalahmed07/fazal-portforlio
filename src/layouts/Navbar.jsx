@@ -44,7 +44,7 @@ export const Navbar = () => {
                         if(elem){
                             elem.scrollIntoView()
                         }
-                     }}>contact me</Button>
+                     }}>Contact me</Button>
             </div>
             
             <button className="md:hidden p-2 text-foreground cursor-pointer" onClick={()=>setisMobileMenuOpen((prev)=>!prev)}>
@@ -61,6 +61,7 @@ export const Navbar = () => {
                     className="text-lg text-muted-foreground hover-forground py-2"
                     >{link.label} </a>
                    ))} 
+
 
                    <Button onClick={() => {setisMobileMenuOpen(false) 
                     const elem =document.getElementById('contact');
