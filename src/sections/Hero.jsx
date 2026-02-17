@@ -91,8 +91,8 @@ export const Hero=() => {
                         ].map((social, idx) => (
                             <a 
                             key={idx} 
-                            target='_blank'
-                            rel='noreferrer'
+                            target="_blank"
+                            rel="noreferrer"
                             href={social.href} className='p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300'>
                                 <social.icon className='h-5 w-5'/>
                                 </a>  
