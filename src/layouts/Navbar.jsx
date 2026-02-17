@@ -67,7 +67,7 @@ export const Navbar = () => {
                         if(elem){
                             elem.scrollIntoView()
                         }
-                   }}>contact me</Button>
+                   }}>Contact me</Button>
           
                 </div>
             </div>

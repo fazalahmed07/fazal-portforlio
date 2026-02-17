@@ -47,7 +47,7 @@ export const Hero=() => {
 
                     <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                   <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-    Web developer - Jr React Dev
+  Junior React Developer Building Modern UIs with Tailwind CSS
                 </span>
                     </div>
                      {/* headline*/ }
@@ -60,7 +60,7 @@ export const Hero=() => {
                             <span className="font-serif italic font-normal text-white">precision.</span>
                         </h1>
                         <p className="text-lg text-muted-forground max-w-lg animate-fade-in animate-delay-200">
-                            Hi i'm Fazal Ahmed - a Full-Stack React Dev Crafting Seamless User Interfaces
+                           Hi, I'm Fazal Ahmed Front-End React Developer Crafting Seamless UIs
                         </p>
                      </div> 
                       {/* cta*/ }
