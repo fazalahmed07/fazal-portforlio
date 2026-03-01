@@ -10,7 +10,7 @@ export const Testimonials = () => {
 
   // Fetch approved reviews from backend
   useEffect(() => {
-    fetch("https://reviews-backend-fxy7.onrender.com/api/reviews")
+    fetch("http://54.165.144.23:5000/api/reviews")
       .then((res) => res.json())
       .then((data) => {
         setTestimonials(data);
@@ -29,7 +29,7 @@ export const Testimonials = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await fetch("https://reviews-backend-fxy7.onrender.com/api/reviews", {
+    await fetch("http://54.165.144.23:5000/api/reviews", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(form),
