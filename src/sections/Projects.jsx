@@ -12,7 +12,7 @@ const projects = [{
 {
 
     title:"LandRover landing page",
-    description:"A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
+    description:"Engineered for extraordinary journeys, Land Rover combines uncompromising luxury with legendary off-road capability.",
     image: "/z.JPG",
     tags:["React ","TailwindCSS ","Node JS"],
     link:"https://landrover-mern.vercel.app/",
