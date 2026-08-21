@@ -9,6 +9,15 @@ const projects = [{
     link:"#",
     github:"#",
 },
+{
+
+    title:"LandRover landing page",
+    description:"A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
+    image: "/z.JPG",
+    tags:["React ","TailwindCSS ","Node JS"],
+    link:"https://landrover-mern.vercel.app/",
+    github:"https://github.com/fazalahmed07/landrover-mern",
+},
 ];
 export const Projects=() => {
     return <section id="projects"className="py-32 relative overflow-hidden">
